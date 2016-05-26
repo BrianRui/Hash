@@ -1,27 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <iostream>
 using namespace std;
-//1.求字符串中第一个只出现一次的字符
-//char FindFirstChar(const char* str)
-//{
-//	char*s = (char*)str;
-//	int array[256] = { 0 };
-//	while (*s !='\0')
-//	{
-//		array[*s]++;
-//		s++;
-//	}
-//	while (*str != '\0')
-//	{
-//		if (array[*str] == 1)
-//		{
-//			return *str;
-//			break;
-//		}
-//		str++;
-//	}
-//
-//}
+
 enum Status
 {
 	EXIST,
